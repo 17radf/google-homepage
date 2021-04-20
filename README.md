@@ -1,2 +1,4 @@
-old project :
-just adding in some tailwind for study purpose
+project :
+google homepage w/ tailwindcss
+
+my old project and... just wanna study new thing (tailwindcss) here.

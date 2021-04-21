@@ -10,14 +10,14 @@ function App() {
           <a href="#asu" className="my-4 mx-2 hover:underline">Gmail</a>
           <a href="#asu" className="my-4 mx-2 hover:underline">Images</a>
           <a href="#asu" className="mx-2">
-            <img src={logo} className="w-8 rounded-full my-3 mx-2"></img>
+            <img src={logo} alt="profile pic" className="w-8 rounded-full my-3 mx-2"></img>
           </a>
         </div>
       </nav>
 
       <main>
           <div className="flex justify-center mt-28 mb-6">
-              <img src={google}></img>
+              <img src={google} alt="google logo"></img>
           </div>
 
           <div className="flex justify-center">
@@ -31,22 +31,43 @@ function App() {
                         </path>
                     </svg>
                 </div>
-                <input type="text" className="outline-none w-96 ml-2 mr-36"></input>
+                <input type="text" className="outline-none md:w-96 ml-2 mr-36"></input>
               </form>
             </div>
           </div>
 
-          <div className="flex flex-row justify-center mt-8">
-            <div className="space-x-2">
+          <div className="flex flex-row justify-center mt-9">
+            <div className="space-x-3">
             <button className="bg-gray-50 rounded p-2 px-4 text-sm font-semibold text-gray-500">Google Search</button>
             <button className="bg-gray-50 rounded p-2 px-4 text-sm font-semibold text-gray-500">I'm Feeling Lucky</button>
             </div>
           </div>
 
-          <div className="flex justify-center text-xs mt-4">
-            <span>Google offered in : <a href="#" className="text-blue-700">Indonesia</a> <a href="#" className="text-blue-700">Basa Bali</a></span>
+          <div className="flex justify-center text-xs mt-6">
+            <span>Google offered in : <a href="#indonesia" className="text-blue-700 pr-3 pl-1">Indonesia</a> <a href="#bali" className="text-blue-700">Basa Bali</a></span>
           </div>
       </main>
+
+      <footer className="bg-gray-100 fixed bottom-0 w-full text-sm font-semibold">
+        <div className="flex flex-row p-4 px-6 text-gray-500">
+          <p>Indonesia</p>
+        </div>
+        <hr></hr>
+        <div className="flex flex-wrap p-4 px-6 justify-between text-gray-500 space-x-6">
+          <div className="flex flex-row space-x-6 xs:justify-center">
+            <p>About</p>
+            <p>Advertising</p>
+            <p>Business</p>
+            <p>How Search works</p>
+          </div>
+          <div className="flex flex-row space-x-6 xs:justify-center">
+            <p>Privacy</p>
+            <p>Terms</p>
+            <p>Settings</p>
+          </div>
+        </div>
+      </footer>
+
       </div>
   );
 }

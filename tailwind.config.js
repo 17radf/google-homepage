@@ -1,5 +1,9 @@
 module.exports = {
-  purge: [],
+  purge: [
+    './src/**/*.html',
+    './src/**/*.vue',
+    './src/**/*.jsx',
+  ],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
@@ -8,4 +12,12 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  style: {
+    postcss: {
+      plugins: [
+        require('tailwindcss'),
+        require('autoprefixer'),
+      ],
+    },
+  },
 }

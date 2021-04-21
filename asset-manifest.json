@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/google-homepage/static/css/main.c25b259c.chunk.css",
+    "main.css": "/google-homepage/static/css/main.cb14742a.chunk.css",
     "main.js": "/google-homepage/static/js/main.a4172bd7.chunk.js",
     "main.js.map": "/google-homepage/static/js/main.a4172bd7.chunk.js.map",
     "runtime-main.js": "/google-homepage/static/js/runtime-main.5029a60c.js",
@@ -8,13 +8,13 @@
     "static/js/2.f3a5bf90.chunk.js": "/google-homepage/static/js/2.f3a5bf90.chunk.js",
     "static/js/2.f3a5bf90.chunk.js.map": "/google-homepage/static/js/2.f3a5bf90.chunk.js.map",
     "index.html": "/google-homepage/index.html",
-    "static/css/main.c25b259c.chunk.css.map": "/google-homepage/static/css/main.c25b259c.chunk.css.map",
+    "static/css/main.cb14742a.chunk.css.map": "/google-homepage/static/css/main.cb14742a.chunk.css.map",
     "static/js/2.f3a5bf90.chunk.js.LICENSE.txt": "/google-homepage/static/js/2.f3a5bf90.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5029a60c.js",
     "static/js/2.f3a5bf90.chunk.js",
-    "static/css/main.c25b259c.chunk.css",
+    "static/css/main.cb14742a.chunk.css",
     "static/js/main.a4172bd7.chunk.js"
   ]
 }

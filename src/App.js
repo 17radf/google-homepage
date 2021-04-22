@@ -3,7 +3,7 @@ import google from './img/googlelogo_color_272x92dp.png'
 
 function App() {
   return (
-      <div className="container font-sans">
+      <div className="font-sans">
 
       <nav>
         <div className="flex justify-end text-sm">
@@ -31,15 +31,15 @@ function App() {
                         </path>
                     </svg>
                 </div>
-                <input type="text" className="outline-none md:w-96 ml-2 mr-36"></input>
+                <input type="text" className="outline-none md:w-96 ml-2 mr-24 lg:mr-36"></input>
               </form>
             </div>
           </div>
 
           <div className="flex flex-row justify-center mt-9">
             <div className="space-x-3">
-            <button className="bg-gray-50 rounded p-2 px-4 text-sm font-semibold text-gray-500">Google Search</button>
-            <button className="bg-gray-50 rounded p-2 px-4 text-sm font-semibold text-gray-500">I'm Feeling Lucky</button>
+            <button className="bg-gray-50 rounded p-2 px-4 text-sm font-semibold text-gray-500 focus:outline-none">Google Search</button>
+            <button className="bg-gray-50 rounded p-2 px-4 text-sm font-semibold text-gray-500 focus:outline-none">I'm Feeling Lucky</button>
             </div>
           </div>
 

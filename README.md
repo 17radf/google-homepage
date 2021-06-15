@@ -1,4 +1,3 @@
-project :
-google homepage w/ tailwindcss
+### google homepage
 
-my old project and... just wanna study new thing (tailwindcss) here.
+a google clone, just the homepage lol
